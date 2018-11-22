@@ -26,7 +26,7 @@ package() {
 
     install -dm755 "${pkgdir}/usr/bin"
     install -dm755 "${pkgdir}/usr/share/applications"
-#    install -dm755 "${pkgdir}"/usr/share/icons
+    install -dm755 "${pkgdir}"/usr/share/icons
     install -dm755 "${pkgdir}/usr/share/icons/Numix-Circle/16/apps"
     install -dm755 "${pkgdir}/usr/share/icons/Numix-Circle/22/apps"
     install -dm755 "${pkgdir}/usr/share/icons/Numix-Circle/24/apps"
@@ -43,8 +43,8 @@ package() {
     install -Dm644 "${pkgname}".svg     "${pkgdir}/usr/share/icons/Numix-Circle/48/apps/${pkgname}.svg"
     install -Dm777 config.properties    "${pkgdir}/usr/share/java/${pkgname}/config.properties"
     install -Dm644 LazyMan.jar          "${pkgdir}/usr/share/java/${pkgname}/LazyMan.jar"
-#    install -Dm655 mitm/linux/mitmdump  "${pkgdir}/usr/share/java/${pkgname}/mitm/linux/mitmdump"
-#    install -Dm644 mitm/proxy.py        "${pkgdir}/usr/share/java/${pkgname}/mitm/proxy.py"
+    install -Dm655 mitm/linux/mitmdump  "${pkgdir}/usr/share/java/${pkgname}/mitm/linux/mitmdump"
+    install -Dm644 mitm/proxy.py        "${pkgdir}/usr/share/java/${pkgname}/mitm/proxy.py"
 }
 
 md5sums=('e9af636a4fccfcd6e81a74f69247eaf0'
