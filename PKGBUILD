@@ -5,7 +5,7 @@
 
 pkgname=lazyman
 pkgver=2.4.0.20190807
-pkgrel=1
+pkgrel=2
 pkgdesc="A simple program that lets you stream every NHL and MLB game"
 arch=('any')
 url='https://github.com/StevensNJD4/LazyMan'
